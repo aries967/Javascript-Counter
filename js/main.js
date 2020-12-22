@@ -24,7 +24,8 @@ function subtractNumber() {
 
 function resetNumber() {
     localStorage.clear();
-    location.reload();
+    currentNumber = 0;
+    text.innerHTML = 0;
 }
 
 function displayNumber() {
